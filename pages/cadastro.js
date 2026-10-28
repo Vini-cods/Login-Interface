@@ -80,11 +80,11 @@ export default function Cadastro() {
             </TouchableOpacity>
 
             <TouchableOpacity
-              onPress={() => navigation.navigate("cadastre")}
+              onPress={() => navigation.navigate("entrada")}
               style={styles.buttonRegister}
             >
               <Text style={styles.registerText}>
-                Não possui uma conta? Cadastre-se
+                Já possui uma conta? Acesse
               </Text>
             </TouchableOpacity>
           </Animatable.View>
